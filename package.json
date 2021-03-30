@@ -21,5 +21,9 @@
     "url": "https://github.com/leocode/eslint-config/issues"
   },
   "homepage": "https://github.com/leocode/eslint-config#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "tag": "beta"
+  }
 }
