@@ -1,0 +1,25 @@
+{
+  "name": "@leocode/eslint-config",
+  "version": "1.0.0",
+  "files": [
+    "node.js",
+    "react.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 7.23.0 < 8",
+    "@typescript-eslint/eslint-plugin": ">= 4.1.1 < 5",
+    "@typescript-eslint/parser": ">= 4.1.1 < 5",
+    "eslint-plugin-react": ">= 7.22.0 < 5",
+    "eslint-plugin-react-hooks": ">= 4.2.0 < 5",
+    "typescript": ">= 4 < 5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocode/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leocode/eslint-config/issues"
+  },
+  "homepage": "https://github.com/leocode/eslint-config#readme",
+  "license": "MIT"
+}
