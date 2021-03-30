@@ -20,7 +20,7 @@ For node put this in `.eslintrc.js` file:
 
 ```js
 module.exports = {
-	extends: ['@leocode/eslint-config/node'],
+  extends: ['@leocode/eslint-config/node'],
 };
 ```
 
@@ -28,7 +28,7 @@ For React put this in `.eslintrc.js` file:
 
 ```js
 module.exports = {
-	extends: ['@leocode/eslint-config/node'],
+  extends: ['@leocode/eslint-config/react'],
 };
 ```
 
