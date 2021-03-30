@@ -22,11 +22,11 @@ module.exports = {
     'indent': [
       'error',
       2,
-      {SwitchCase: 1},
+      { SwitchCase: 1 },
     ],
     'keyword-spacing': [
       'error',
-      {before: true, after: true},
+      { before: true, after: true },
     ],
     'linebreak-style': [
       'error',
@@ -116,7 +116,7 @@ module.exports = {
     'brace-style': [
       'error',
       '1tbs',
-      {allowSingleLine: true},
+      { allowSingleLine: true },
     ],
     'comma-dangle': [
       'error',
@@ -138,11 +138,11 @@ module.exports = {
     'lines-between-class-members': [
       'error',
       'always',
-      {exceptAfterSingleLine: true},
+      { exceptAfterSingleLine: true },
     ],
     'max-params': [
       'warn',
-      5,
+      3,
     ],
     'new-parens': [
       'error',
@@ -168,7 +168,7 @@ module.exports = {
     ],
     'space-before-function-paren': [
       'error',
-      {anonymous: 'always', named: 'never', asyncArrow: 'always'},
+      { anonymous: 'always', named: 'never', asyncArrow: 'always' },
     ],
     'space-in-parens': [
       'error',
