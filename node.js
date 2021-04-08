@@ -218,5 +218,8 @@ module.exports = {
     'yield-star-spacing': [
       'error',
     ],
+    '@typescript-eslint/no-implicit-any-catch': [
+      'error',
+    ],
   },
 };
