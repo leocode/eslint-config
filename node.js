@@ -7,6 +7,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
+    project: './tsconfig.json',
   },
   plugins: [
     '@typescript-eslint',
@@ -216,6 +217,9 @@ module.exports = {
       'error',
     ],
     'yield-star-spacing': [
+      'error',
+    ],
+    '@typescript-eslint/consistent-type-imports': [
       'error',
     ],
     '@typescript-eslint/no-implicit-any-catch': [
