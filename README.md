@@ -5,7 +5,13 @@
 1. Install all peer dependencies. You can use your favourite tool or just type:
 
 ```
+For React:
+
 yarn add --dev eslint@7 @typescript-eslint/eslint-plugin@4 @typescript-eslint/parser@4 eslint-plugin-react@7 eslint-plugin-react-hooks@4 typescript@4
+
+For Node:
+
+yarn add --dev eslint@7 @typescript-eslint/eslint-plugin@4 @typescript-eslint/parser@4 typescript@4
 ```
 
 2. Install package with configuration:
