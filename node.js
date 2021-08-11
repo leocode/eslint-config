@@ -225,5 +225,12 @@ module.exports = {
     '@typescript-eslint/no-implicit-any-catch': [
       'error',
     ],
+    'no-return-await': [
+      'off',
+    ],
+    '@typescript-eslint/return-await': [
+      'error',
+      'always',
+    ],
   },
 };
