@@ -229,5 +229,12 @@ module.exports = {
     'yield-star-spacing': [
       'error',
     ],
+    'no-return-await': [
+      'off',
+    ],
+    '@typescript-eslint/return-await': [
+      'error',
+      'always',
+    ],
   },
 };
