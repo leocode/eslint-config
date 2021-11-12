@@ -221,9 +221,6 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': [
       'error',
     ],
-    '@typescript-eslint/no-implicit-any-catch': [
-      'error',
-    ],
     'no-return-await': [
       'off',
     ],
