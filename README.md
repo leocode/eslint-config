@@ -7,11 +7,11 @@
 ```
 For React:
 
-yarn add --dev eslint@7 @typescript-eslint/eslint-plugin@4 @typescript-eslint/parser@4 eslint-plugin-react@7 eslint-plugin-react-hooks@4 typescript@4
+yarn add --dev eslint@8 @typescript-eslint/eslint-plugin@5 @typescript-eslint/parser@5 eslint-plugin-react@7.27.0 eslint-plugin-react-hooks@4.3.0 typescript@4
 
 For Node:
 
-yarn add --dev eslint@7 @typescript-eslint/eslint-plugin@4 @typescript-eslint/parser@4 typescript@4
+yarn add --dev eslint@8 @typescript-eslint/eslint-plugin@5 @typescript-eslint/parser@5 typescript@4
 ```
 
 2. Install package with configuration:
