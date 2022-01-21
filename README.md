@@ -38,6 +38,19 @@ module.exports = {
 };
 ```
 
+## Known issues
+
+If ESLint doesn't work by default in your editor (it cannot find `tsconfig.json` file), you may need to specify in `.eslintrc.js`:
+
+```js
+module.exports = {
+  extends: ['@leocode/eslint-config/node'],
+  parserOptions: {
+    tsconfigRootDir: __dirname, // or any other directory relative to `.eslintrc.js` file
+  },
+};
+```
+
 ## License
 
 MIT
