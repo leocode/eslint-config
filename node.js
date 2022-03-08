@@ -228,5 +228,9 @@ module.exports = {
       'error',
       'always',
     ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {"vars": "all", "ignoreRestSiblings": true}
+    ]
   },
 };
