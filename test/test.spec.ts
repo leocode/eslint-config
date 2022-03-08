@@ -15,7 +15,7 @@ const eslint = new ESLint({
 test('should show errors in invalid file', async () => {
   const [results] = await eslint.lintFiles(['test/fixtures/invalid.ts']);
 
-  expect(results.messages).toHaveLength(2);
+  expect(results.messages).toHaveLength(3);
 });
 
 test('should not show errors in valid file', async () => {
