@@ -220,5 +220,9 @@ module.exports = {
       'error',
       {before: true, after: true},
     ],
+    'eol-last': [
+      'error',
+      'always'
+    ],
   }
 }
