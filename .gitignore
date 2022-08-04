@@ -1,3 +1,53 @@
-.idea
+# System
+Thumbs.db
+.DS_Store
+.metadata
+
+# Common
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
 *.log
+*.dll
+*.lib
+*.sbr
+*.ini
+*backup*
+*.sql
+
+# NodeJS
 node_modules
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspaces
+*.sublime-settings
+
+# Visual Studio
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# JetBrains
+.idea
+
+# Others
+.env
